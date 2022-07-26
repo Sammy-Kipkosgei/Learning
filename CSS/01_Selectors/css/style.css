@@ -1,0 +1,22 @@
+/* First selector is Universal selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selecting an element */
+body{
+    font-size: 15px;
+}
+
+h1{
+    color: blueviolet;
+}
+header{
+    background-color: aliceblue;
+}
+
+/* Using classes which start with a period */
+
+.note_2{
+    color: chocolate;
+}

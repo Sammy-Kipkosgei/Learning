@@ -4,14 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: gold;
+    min-height: 10vh;
+    margin-top: 12px;
+    margin-left: 2em;
+    margin-right: 2rem;
+   
 
+}
 .container{
-    border: 2px dashed red;
+    /* border: dashed red; */
+    /* border-top: 5px solid;
+    border-right: 10px dotted;
+
+    border: 2px outset red; */
+
+    border-left: 5px double red;
+    border-right: 5px double red;
+    /* outline: 20px solid black; */
+    
     font-size: 1.5rem;
     /* margin-top: 1.5em;
     margin-left: 2em; 
     margin-right: 2em;
     margin-bottom: 1.5em; */
+    margin: 1.5em;
+    padding: 1.5em 2em 3em 4em;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    color: rgb(92, 88, 62);
+}
+
+.circle{
+    
+
+    font-size: 1.5rem;
     margin: 1.5em;
     padding: 1.5em 2em 3em 4em;
 }

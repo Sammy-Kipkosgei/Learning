@@ -1,0 +1,27 @@
+/* the size of content and the page */
+body{
+    background-color: #333;
+}
+main{
+    min-height: 100vh;
+}
+header{
+    background-color: azure;
+    font-size: 22px;
+        
+}
+
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    padding: 0.5em;
+    
+}
+
+h3{
+    color: brown;
+}
+p{
+    color: #fff;
+    width: 40ch;
+}

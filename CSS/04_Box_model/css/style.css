@@ -10,6 +10,8 @@ header{
     margin-top: 12px;
     margin-left: 2em;
     margin-right: 2rem;
+    outline-offset: 0.25rem;
+    border-radius: 20px;
    
 
 }

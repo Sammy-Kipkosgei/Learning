@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    margin: 2.5rem;
+}
+
+header{
+    text-align: center;
+    background: rgb(255, 254, 240);
+    padding: 10px;
+}
+
+ul,a{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:focus{
+    color: black;
+}
+a:active{
+    color: red;
+}
+main{
+    margin-top: 3em;
+}
+
+form,h3{
+    text-align: center;
+    background-color: beige;
+    margin-top: 1em;
+
+}
+input{
+    margin: 7px;
+    font: inherit;
+}
+button{
+    background-color: saddlebrown;
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    border-radius: 1rem;
+    margin: .1em;
+}

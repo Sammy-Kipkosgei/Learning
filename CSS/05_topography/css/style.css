@@ -1,0 +1,71 @@
+/* Typography is how text is being displayed on the window */
+
+/* Using external fonts like google fonts and using import fuction */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgrey;
+    margin: 12px;
+    padding: 12%;
+    
+}
+main{
+    margin-top: 1em;
+    margin-left: 1em;
+    border-left: 5px double yellow;
+    border-right: 5px double rgb(156, 156, 154);
+    font-family: sans-serif;
+    
+}
+
+header{
+    text-align: center;
+    color: aliceblue;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2rem;
+    /* letter-spacing: 0.1em; */
+    word-spacing: 0.1rem;
+    font-weight: bold;
+    
+}
+.new_font{
+    text-transform: uppercase;
+    color: rgb(63, 85, 85);
+    font-family: 'Roboto', sans-serif;
+}
+.fam1{
+    color: rgb(134, 87, 26);
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.fam2{
+    color: rgb(134, 87, 26);
+    font-family: fantasy;
+    font-size: 1.5em;
+}
+.fam3{
+    color: rgb(134, 87, 26);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+form{
+  margin: 1em;
+  
+}
+input, button{
+    font: inherit;
+}
